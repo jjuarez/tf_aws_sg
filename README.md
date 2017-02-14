@@ -41,6 +41,8 @@ service Terraform templates.
     - It allows incoming TCP 636 (LDAPS)
 - [sg_ldaps_only](https://github.com/terraform-community-modules/tf_aws_sg/tree/master/sg_ldaps_only) - This is a security group for LDAPS only
     - It allows incoming TCP 636 (LDAPS)
+- [sg_mongodb](https://github.com/terraform-community-modules/tf_aws_sg/tree/master/sg_mongodb) - This is a security group for MongoDB
+    - It allows incoming TCP 22 (SSH), TCP 27017 (MongoDB), TCP 27018 (MongoDB shard)
 
 
 Usage
