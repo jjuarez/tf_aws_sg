@@ -6,7 +6,6 @@ you can use with your service Terraform template.
 
 Ports
 -----
-- TCP 22 (SSH)
 - TCP 27017 (mongodb)
 - TCP 27018 (mongodb shard installation)
 
